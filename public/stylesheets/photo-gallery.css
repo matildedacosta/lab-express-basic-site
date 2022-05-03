@@ -1,0 +1,51 @@
+/* cor suggestion thistle; */
+
+h2 {
+  color: rgb(203, 184, 187);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h1 {
+  padding: 2rem 3rem;
+  text-align: center;
+  background-color: rgb(203, 184, 187);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.polaroids {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.polaroid-pictures {
+  width: 20vw;
+}
+
+.art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+}
+
+.cover {
+  width: 20vw;
+}
+
+.notas-musicais,
+.my-social-awkwardness,
+.polaroid-pictures {
+  padding: 1rem 0;
+}

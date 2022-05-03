@@ -1,0 +1,49 @@
+h1 {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: rgb(203, 184, 187);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h4 {
+  background-color: white;
+  color: rgb(203, 184, 187);
+  text-align: center;
+  width: 10rem;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  color: rgb(255, 255, 255);
+  width: 40rem;
+  font-weight: 400;
+}
+
+.pictures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-pictures {
+  width: 20vw;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.article-about {
+  background-color: rgb(203, 184, 187);
+  padding: 1rem;
+}

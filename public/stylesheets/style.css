@@ -1,0 +1,58 @@
+/* footer com social media e © Matilde Costa */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 300;
+  font-style: italic;
+}
+
+h6 {
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  margin: 2rem;
+  border-top: 0.1rem solid rgb(203, 184, 187);
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+#facebook {
+  width: 2.5vw;
+}
+
+#instagram {
+  width: 1.5vw;
+}

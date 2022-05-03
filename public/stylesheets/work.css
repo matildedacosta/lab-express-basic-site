@@ -1,0 +1,139 @@
+/* Centrar último vídeo 
+DOM nos buttons*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: rgb(203, 184, 187);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+h4 {
+  color: rgb(203, 184, 187);
+  font-weight: 450;
+}
+
+h5 {
+  font-weight: 200;
+}
+
+p {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+h4,
+h5 {
+  text-align: center;
+}
+
+.work-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 0.1rem solid rgb(203, 184, 187);
+  width: 90rem;
+}
+
+.msa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.09rem dashed rgb(203, 184, 187);
+}
+
+.my-social-awkwardness {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sounds-msa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.buttons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.play-button,
+.pause-button {
+  border: none;
+  background-color: transparent;
+}
+
+.play-button {
+  display: flex;
+}
+
+.pause-button {
+  display: none;
+}
+
+.button {
+  width: 5rem;
+}
+
+.youtube-section {
+  display: flex;
+  flex-direction: column;
+  justify-items: space-evenly;
+  align-items: center;
+  gap: 1rem;
+}
+
+.youtube-videos {
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.videos-div {
+  max-width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#eng-songwriting {
+  border-style: hidden;
+}
+
+.videos-divs > h4,
+h5 {
+  max-width: 300px;
+}

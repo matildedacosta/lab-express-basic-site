@@ -1,0 +1,40 @@
+h1 {
+  color: rgb(203, 184, 187);
+  font-weight: 600;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  color: rgb(255, 255, 255);
+  background-color: rgb(203, 184, 187);
+  border-radius: 3%;
+  padding: 1rem;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0 3rem 0;
+}
+
+input {
+  margin: 10px;
+}
+
+.submit-button {
+  background-color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: rgb(203, 184, 187);
+  border: 0.2rem groove rgb(255, 255, 255);
+  box-shadow: 0.1rem 0.1rem rgb(255, 255, 255);
+}
