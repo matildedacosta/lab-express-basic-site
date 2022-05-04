@@ -2,6 +2,13 @@ h1 {
   color: rgb(203, 184, 187);
   font-weight: 600;
 }
+
+main {
+  height: 45rem;
+  display: flex;
+  justify-content: center;
+}
+
 .form {
   display: flex;
   flex-direction: column;

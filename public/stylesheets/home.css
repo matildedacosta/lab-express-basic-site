@@ -7,7 +7,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 55rem;
+  height: 45rem;
 }
 
 h1 {
@@ -24,4 +24,14 @@ h2 {
 h3 {
   font-weight: 300;
   font-style: italic;
+}
+
+.main:hover  {
+  background-color: rgb(203, 184, 187);
+}
+
+h1:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(203, 184, 187);
+  padding: 13rem 25rem;
 }

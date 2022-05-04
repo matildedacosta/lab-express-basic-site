@@ -17,10 +17,12 @@ h4 {
 }
 
 main {
+  height: 74vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 p {
   color: rgb(255, 255, 255);
   width: 40rem;
@@ -38,6 +40,7 @@ p {
 }
 
 .articles {
+  margin: 10rem;
   display: flex;
   justify-content: center;
   gap: 1rem;

@@ -1,11 +1,19 @@
 body {
-  margin: 1% 3%;
+  margin: 0 3%;
 }
 
 header {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 95vw;
+  height: 10vh;
+  margin-bottom: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+main {
+  margin-top: 10vh;
 }
 
 .logo {
@@ -22,4 +30,13 @@ a {
   display: flex;
   flex-direction: row;
   gap: 3rem;
+}
+
+/* it's not working :( */
+.nav-bar a:active {
+  color: rgb(203, 184, 187);
+}
+
+a:hover {
+  color: rgb(203, 184, 187);
 }

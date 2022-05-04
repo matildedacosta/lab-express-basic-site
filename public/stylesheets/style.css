@@ -4,6 +4,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -36,6 +38,7 @@ footer {
 }
 
 .footer {
+  color: rgb(203, 184, 187);
   margin: 2rem;
   border-top: 0.1rem solid rgb(203, 184, 187);
 }

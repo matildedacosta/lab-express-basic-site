@@ -19,6 +19,8 @@ h1 {
 
 h3 {
   font-size: 1.1rem;
+  border: 0.05rem solid rgb(203, 184, 187);
+  padding: 0.3rem;
 }
 
 h4 {
@@ -40,6 +42,11 @@ h5 {
   text-align: center;
 }
 
+h3,
+p {
+  color: rgb(203, 184, 187);
+}
+
 .work-area {
   display: flex;
   flex-direction: column;
@@ -49,6 +56,63 @@ h5 {
   width: 90rem;
 }
 
+/* BUTTONS */
+.buttons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.play-button,
+.pause-button,
+.stop-button {
+  border: none;
+  background-color: transparent;
+}
+
+.play-button {
+  display: flex;
+}
+
+.pause-button {
+  display: none;
+}
+
+.stop-button {
+  display: none;
+}
+
+.button {
+  width: 3vw;
+}
+
+/* SYNCS & BRIEFINGS */
+
+.syncs-area h3 {
+  width: 10vw;
+}
+
+.syncs-area {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.syncs-div {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+
+/* COMPOSIÇÕES EM PORTUGUÊS */
+
+.composicoes-pt h3 {
+  width: 9vw;
+}
+
+/* ENGLISH SONGWRITING */
 .msa {
   display: flex;
   flex-direction: column;
@@ -72,32 +136,6 @@ h5 {
   align-items: center;
   flex-wrap: wrap;
   gap: 5rem;
-}
-
-.buttons-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.play-button,
-.pause-button {
-  border: none;
-  background-color: transparent;
-}
-
-.play-button {
-  display: flex;
-}
-
-.pause-button {
-  display: none;
-}
-
-.button {
-  width: 5rem;
 }
 
 .youtube-section {
